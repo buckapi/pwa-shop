@@ -11,6 +11,7 @@ import { virtualRouter } from './services/virtualRouter.service';
 import { HeaderDashboardComponent } from './components/ui/header-dashboard/header-dashboard.component';
 
 import { RequestComponent } from './components/request/request.component';
+import { ProductdetailComponent } from './components/productdetail/productdetail.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -22,7 +23,8 @@ import { RequestComponent } from './components/request/request.component';
     HomeComponent,
     HeaderHomeComponent,
     HeaderDashboardComponent,
-    RequestComponent
+    RequestComponent,
+    ProductdetailComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
